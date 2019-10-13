@@ -1,11 +1,3 @@
-header{
-  color: var(--theme-background-color); 
-  background-color: var(--theme-foreground-color);
-  font-size: 2em;
-  font-family: var(--theme-font-family);
-  padding: 1em;
-}
-
 main{
   padding: 1em;
   font-family: var(--theme-font-family);
