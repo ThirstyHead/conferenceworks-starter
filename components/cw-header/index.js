@@ -25,6 +25,30 @@ window.customElements.define('cw-header',
         color: var(--theme-accent-color);
         font-weight: bold;
       }
+
+      nav{
+        display: inline;
+      }
+
+      ul{
+        display: inline;
+      }
+
+      li{
+        display: inline;
+        font-size: 0.5em;
+      }
+
+      li a{
+        color: var(--theme-background-color);
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      li a:hover{
+        border-bottom: 2px solid var(--theme-accent-color);
+      }
+
       `;
       return style;
     }
@@ -34,6 +58,13 @@ window.customElements.define('cw-header',
       content.innerHTML = `
       <header>
         <span class="branding-logo">Conference</span>Works
+
+        <nav>
+          <ul>
+            <li><a href="schedule/">Schedule</a></li>
+            <li><a href="speakers/">Speakers</a></li>
+          </ul>
+        </nav>
       </header>
       `;
       return content;
