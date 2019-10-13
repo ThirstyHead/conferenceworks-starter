@@ -1,9 +1,6 @@
-/**************************
-  Theme
-***************************/
 :root{
   --theme-background-color: white;
   --theme-foreground-color: black;
-  --theme-accent-color: red;
+  --theme-accent-color: green;
   --theme-font-family: Arial, Helvetica, sans-serif;
 }
