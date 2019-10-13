@@ -39,13 +39,16 @@ window.customElements.define('cw-header',
         font-size: 0.5em;
       }
 
-      li a{
+      a{
         color: var(--theme-background-color);
         text-decoration: none;
+      }
+
+      li a{
         text-transform: uppercase;
       }
 
-      li a:hover{
+      a:hover{
         border-bottom: 2px solid var(--theme-accent-color);
       }
 
@@ -57,12 +60,12 @@ window.customElements.define('cw-header',
       let content = document.createElement('section');
       content.innerHTML = `
       <header>
-        <span class="branding-logo">Conference</span>Works
+        <a href="/"><span class="branding-logo">Conference</span>Works</a>
 
         <nav>
           <ul>
-            <li><a href="schedule/">Schedule</a></li>
-            <li><a href="speakers/">Speakers</a></li>
+            <li><a href="/schedule">Schedule</a></li>
+            <li><a href="/speakers">Speakers</a></li>
           </ul>
         </nav>
       </header>
