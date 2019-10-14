@@ -1,0 +1,172 @@
+Presentations
+Machine Learning Workshop
+Mon 9:00 AM
+Machine Learning is all the rage, but many developers have no idea what it is, what they can expect from it or how to start to get into this huge and rapidly-changing field. The ideas draw from the fields of Artificial Intelligence, Numerical Analysis, Statistics and more. These days, you'll generally have to be a CUDA-wielding Python developer to boot. This workshop will gently introduce you to the ideas and tools, show you several working examples and help you build a plan to for diving deeper into this exciting new field.
+
+We will cover:
+
+The differences between data science, AI and machine learning
+The Five Tribes of Machine Learning (as defined by Pedro Domingos)
+Walkthroughs of some of the main algorithms
+Examples in Java, R and Python
+Tools such as Tensorflow and Pytorch
+The impact of GPUs on machine learning
+Stories about how companies are being successful with machine learning
+A discussion about the likely impacts of machine learning on the job market and society
+
+
+
+
+
+
+
+
+
+Web Security Workshop
+Wed 3:15 PM
+If you're not terrified, you're not paying attention.
+
+Publishing information on the Web does not require us to just give it away. We have a series of tools and techniques for managing identity, authentication, authorization and encryption so we only share content with those we trust.
+
+Before we tackle Web Security, however, we need to figure out what we mean by Security. We will pull from the worlds of Security Engineering and Software Security to lay the foundation for technical approaches to protecting our web resources. We will also discuss the assault on encryption, web security features and emerging technologies that will hopefully help strengthen our ability to protect what we hold dear.
+
+Topics include:
+
+Security Engineering
+Software Security
+Encryption
+Authentication and Authorization Mechanisms
+Emerging Web Security Technologies
+
+
+
+
+
+
+
+
+
+The Decentralized Web
+Thu 3:15 PM
+While the Web itself has strong decentralized aspects to how it is used, the backend technologies are largely centralized. The naming systems, the routing systems and the traffic that all points back to the same place for a website are all centralized technologies. This creates both a liability as well as a control point.
+
+In order to break free of some of these limitations, new technologies are emerging to provide a more decentralized approach to the Web.
+
+This talk will walk you through some emerging technology to provide decentralized content storage and distribution, edge computing and more. We will touch upon the Interplanetary Filesystem, WebTorrent, Blockchain spin offs and more.
+
+
+
+
+
+
+
+
+
+
+Blockchain: Best or Worst Thing Ever?
+Thu 1:30 PM
+If you listen to zealots and critics, blockchain-based systems and the cryptocurrencies they enable are either the Best Thing Ever or the Worst Thing Ever. As you may suspect, the reality is somewhere in-between. We will introduce the major ideas, technologies and players as well as evaluate them from technological, economic and social perspectives.
+
+Come have a spin-free discussion about these polarizing technologies to find how they might be useful to you.
+
+
+
+
+
+
+
+WebAssembly
+Sunday - Nov 3 2:15 PM
+Brian Sletten
+Brian Sletten
+Forward Leaning Software Engineer
+What happens if web applications got really fast?
+
+We are increasingly able to do more in the browser because of faster networks, optimized JavaScript engines, new standard APIs and more. There is a new initiative to allow a binary format called WebAssembly that will provide a compiled, cross-platform representation that will take us to the next level. Complex business applications and 3D video games will alike will benefit from this new standard. Come hear about what it can do for you.
+
+
+
+
+
+
+
+
+
+Machine Learning: Overview
+Saturday - Nov 2 1:30 PM
+Brian Sletten
+Brian Sletten
+Forward Leaning Software Engineer
+Machine Learning is a huge, deep field. Come get a head start on how you can learn about how machines learn.
+
+This talk will be an overview of the Machine Learning field. We’ll cover the various tools and techniques that are available to you to solve complex, data-driven problems. We’ll walk through the algorithms and apply them to some real but accessible problems so you can see them at work.
+
+
+
+
+
+
+
+
+
+Machine Learning: Natural Language Processing
+Saturday - Nov 2 3:15 PM
+Brian Sletten
+Brian Sletten
+Forward Leaning Software Engineer
+Documents contain a lot of information. We'll introduce you to a variety of techniques to extract them.
+
+Machine Learning techniques are useful for analyzing numeric data, but they can also be useful for classifying text, extracting content and more. We will discuss a variety of open source tools for extracting the content, identifying elements and structure and analyzing the text can be used in distributed, microservice-friendly ways.
+
+
+
+
+
+
+
+
+
+
+
+
+Machine Learning: Deep Learning
+Sunday - Nov 3 9:00 AM
+Brian Sletten
+Brian Sletten
+Forward Leaning Software Engineer
+Deep Learning is an evolution of the capabilities of more conventional machine learning to take advantage of the extra data available from Big Data systems. With more data, many of the manual aspects of feature selection and other machine learning steps can be derived automatically. We will highlight many of the main deep learning frameworks and give you a hands on introduction to what is possible and how you can start to use them.
+
+We will cover:
+
+Basic Neural networks
+Recurrent neural networks
+Convolutional neural networks
+Deep Learning frameworks such as TensorFlow, Pytorch, H20, DeepLearning4J and more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Machine Learning: Deep Reinforcement Learning
+Sunday - Nov 3 11:00 AM
+Brian Sletten
+Brian Sletten
+Forward Leaning Software Engineer
+What comes after machine learning and deep learning? How about dynamic systems that need new ways of finding paths through complex scenarios such as video games, challenging board games and more.
+
+In addition to covering the main ideas of deep reinforcement learning, we will cover some of the main tools and frameworks
+
+Ray
+OpenGym
+
+
+

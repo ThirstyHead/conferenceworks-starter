@@ -1,0 +1,92 @@
+
+Automated Testing JavaScript
+JavaScript is one of the most powerful and yet perilous languages. It is arguably the most ubiquitous language, the king of the client side programming the web. The dynamic nature of the language offers many benefits, but the weak typing and lack of tooling can make changes unpredictable, that is, if we're not careful. Automated testing can greatly alleviate the pains and lead to more fruitful development.
+
+In this presentation we will take look at the tools, but also the approach to automate the tests for JavaScript code. We will start with simple cases at first, but quickly dive into dealing with dependencies, and measuring code coverage.
+
+
+
+
+
+
+Exploring Modern JavaScript
+JavaScript has come a long way. Libraries and frameworks like React, Angular, and Vue use the more recent versions of JavaScript. Getting up to speed will help us get better at programming both front-end and backend JavaScript applications.
+
+The workshop will dive into the features from ES 6 and beyond.
+
+
+
+
+
+
+Improving Quality of JavaScript Code
+JavaScript is a very powerful and ubiquitous language. At the same time, it is also a language that is often misunderstood and misused. Better quality code greatly reduces the effort and time to maintain software. So, there is a good incentive to improve quality of code.
+
+In this presentation we will cover two things. We will discuss dos and don'ts for programming with JavaScript. Then we will look at a set of tools that can help keep an eye on our code and prompt us to improve the quality.
+
+
+
+
+
+
+
+JavaScript: From Classes to Decorators
+To say the least, writing classes in JavaScript was a weird experience. It never felt right. Well the language has set it right finally. In this presentation we will learn about the different capabilities in JavaScript to do OO programming. Along the way we will dive into some advanced concepts as well.
+
+Learn how to program with this powerful language that has matured significantly in the recent years.
+
+
+
+
+
+
+
+
+
+
+
+JavaScript: The Fascinating Parts
+JavaScript is no longer that scary nasty language. There are so many wonderful features in the modern versions of this language that I can't stop praising it. In this presentation we will focus on some of the most exciting features of the language that make programming in JavaScript a pleasant experience.
+
+We will dive into beautiful parts and features from ES 6, ES 7, and ES 8.
+
+
+
+
+
+
+
+
+
+Keynote: Do not walk away from Complexity, Run
+We constantly hear that change should be affordable and cost effective. True, but, in reality, that's easily said than done. Complexity makes change hard. We can't shy away from the hard problems posed by domains and business needs. So, how can we solve complicated problems without getting dragged into the quagmire of what appears to be an inevitable complexity? In this keynote, an award winning author and software practitioner will share experiences and observations from working on multiple software projects, about what leads to complexities, the traps developers and organizations fall into, and what we can do to effectively deal with these common, recurring issues we see across domains and products.
+
+
+
+
+
+
+
+
+
+
+
+MetaProgramming with JavaScript
+Tools/libraries/frameworks that rely on modern JavaScript heavily make use of metaprogramming capabilities that is relatively new in the language.
+
+In this presentation we will learn about the metaprogramming API, the benefits it provides, and how to benefit from this programming facility.
+
+
+
+
+
+
+
+
+
+Mastering JavaScript Modules
+JavaScript modules are highly powerful but an be confusing with the number of options available to explore and import. In this presentation we will take a through look at what modules are, how to export from a module, how to import, and the dos and don'ts. This will help you get comfortable with modules as you develop applications with JavaScript libraries/frameworks, like Angular, React, Vue, etc.<Paste>
+
+
+
+
