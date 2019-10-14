@@ -6,3 +6,11 @@
   width: 300px;
   height: 300px;
 }
+
+.speaker-name{
+  font-weight: bold;
+}
+
+.speaker-title{
+  font-style: italic;
+}
