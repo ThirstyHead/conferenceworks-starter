@@ -50,10 +50,16 @@
 
       function loadSchedule(){
         console.log("Loading schedule");
+        let schedule = JSON.parse(window.localStorage.getItem('schedule'));
+        if(schedule){
+          schedule.sessions.forEach( (session) => {
+            let slot = document.querySelector(`[data-slot='${session.slot}']`);
+            slot.innerHTML = `${session.talk}<br>${session.speaker}`;
+          });
+        }
       }
 
     </script>
-
   </head>
 
   <body>
