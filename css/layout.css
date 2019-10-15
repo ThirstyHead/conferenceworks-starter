@@ -2,3 +2,29 @@ main{
   padding: 1em;
   font-family: var(--theme-font-family);
 }
+
+.speaker-page{
+  display: flex;
+}
+
+@media screen and (orientation: portrait){
+  .speaker-page{
+    flex-direction: column;
+  }
+}
+
+@media screen and (orientation: landscape){
+  .speaker-page{
+    flex-direction: row;
+  }
+
+  .speaker-page figcaption{
+    padding-left: 1em;
+  }
+
+  .speaker-page figcaption h2:first-child{
+    margin-top: 0;
+  }
+}
+
+
