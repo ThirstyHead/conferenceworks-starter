@@ -1,8 +1,10 @@
 Neal Ford
 Director / Software Architect / Meme Wrangler
-Neal Ford     
+
 Neal is Director, Software Architect, and Meme Wrangler at ThoughtWorks, a global IT consultancy with an exclusive focus on end-to-end software development and delivery.
+
 Before joining ThoughtWorks, Neal was the Chief Technology Officer at The DSW Group, Ltd., a nationally recognized training and development firm. Neal has a degree in Computer Science from Georgia State University specializing in languages and compilers and a minor in mathematics specializing in statistical analysis.
+
 He is also the designer and developer of applications, instructional materials, magazine articles, video presentations, and author of 6 books, including the most recent The Productive Programmer. His language proficiencies include Java, C#/.NET, Ruby, Groovy, functional languages, Scheme, Object Pascal, C++, and C. His primary consulting focus is the design and construction of large-scale enterprise applications. Neal has taught on-site classes nationally and internationally to all phases of the military and to many Fortune 500 companies. He is also an internationally acclaimed speaker, having spoken at over 100 developer conferences worldwide, delivering more than 600 talks. If you have an insatiable curiosity about Neal, visit his web site at http://www.nealford.com. He welcomes feedback and can be reached at nford@thoughtworks.com.
 
 
