@@ -14,3 +14,25 @@
 .speaker-title{
   font-style: italic;
 }
+
+.breadcrumbs-nav {
+  display: inline;
+}
+
+.breadcrumbs-nav ol{
+  display: inline-block;
+  padding: 0.5em;
+  padding-left: 1em;
+}
+
+.breadcrumbs-nav li{
+  display: inline;
+}
+
+.breadcrumbs-nav li::after{
+  content: " > ";
+}
+
+.breadcrumbs-nav li:last-child::after{
+  content: "";
+}
