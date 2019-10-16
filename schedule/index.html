@@ -15,51 +15,35 @@
     <script>
       window.addEventListener('load', init);
 
-      function init(){
-        fetchSchedule();
-        loadSchedule();
+      async function init(){
+        await fetchSchedule();
+        await loadSchedule();
       }
 
-      function fetchSchedule(){
+      async function fetchSchedule(){
         console.log("Fetching schedule");
-        let schedule = {
-          sessions: [
-            {
-              slot: "gh-1",
-              talk: "Agile and Enterprise Architecture are Not Mutually Exclusive",
-              speaker: "Dr. Rebecca Parsons"
-            },
-
-            {
-              slot: "gh-2",
-              talk: "The Decentralized Web",
-              speaker: "Brian Sletten"
-            },
-
-            {
-              slot: "mh-2",
-              talk: "Microservices Caching Strategies",
-              speaker: "Mark Richards"
-            }
-          ]
-        }
-
+        let response = await fetch('/schedule/schedule.json');  
+        let schedule = await response.json();
         console.dir(schedule);
         window.localStorage.setItem('schedule', JSON.stringify(schedule));
       }
 
-      function loadSchedule(){
+      async function loadSchedule(){
         console.log("Loading schedule");
         let schedule = JSON.parse(window.localStorage.getItem('schedule'));
         if(schedule){
           schedule.sessions.forEach( (session) => {
             let slot = document.querySelector(`[data-slot='${session.slot}']`);
-            slot.innerHTML = `${session.talk}<br>${session.speaker}`;
+            slot.innerHTML = `<b>${session.talk}</b><br>${session.speaker}`;
           });
         }
       }
 
     </script>
+
+
+
+
   </head>
 
   <body>
@@ -115,8 +99,8 @@
 
           <tr>
             <td class="timeslot">10:45am - 12:15pm</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td data-slot="gh-3">&nbsp;</td>
+            <td data-slot="mh-3">&nbsp;</td>
           </tr>
 
           <tr>
@@ -126,8 +110,8 @@
 
           <tr>
             <td class="timeslot">1:30pm - 3:00pm</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td data-slot="gh-4">&nbsp;</td>
+            <td data-slot="mh-4">&nbsp;</td>
           </tr>
 
           <tr>
@@ -137,8 +121,8 @@
 
           <tr>
             <td class="timeslot">3:15pm - 4:45pm</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td data-slot="gh-5">&nbsp;</td>
+            <td data-slot="mh-5">&nbsp;</td>
           </tr>
 
           <tr>
@@ -148,7 +132,7 @@
 
           <tr>
             <td class="timeslot">5:00pm - 6:00pm</td>
-            <td colspan="2">Closing Keynote</td>
+            <td colspan="2" data-slot="gh-6">Closing Keynote</td>
           </tr>
 
         </tbody>
