@@ -1,0 +1,7 @@
+Rebecca Parsons
+
+Dr. Rebecca Parsons is ThoughtWorks’ Chief Technology Officer with decades-long applications development experience across a range of industries and systems. Her technical experience includes leading the creation of large-scale distributed object applications and the integration of disparate systems. Separate from her passion for deep technology, Dr. Parsons is a strong advocate for diversity in the technology industry. In recognition of this, Dr. Parsons was awarded the 2018 Abie Technical Leadership Award.
+
+Before coming to ThoughtWorks, Dr. Parsons worked as an assistant professor of computer science at the University of Central Florida where she taught courses in compilers, program optimization, distributed computation, programming languages, theory of computation, machine learning and computational biology. She also worked as a Director’s Postdoctoral Fellow at the Los Alamos National Laboratory researching issues in parallel and distributed computation, genetic algorithms, computational biology and nonlinear dynamical systems.
+
+Dr. Parsons received a Bachelor of Science degree in Computer Science and Economics from Bradley University, a Master’s of Science in Computer Science from Rice University and her Ph.D. in Computer Science from Rice University. She is also the co-author of Domain-Specific Languages, The ThoughtWorks Anthology and Building EvolutionaryArchitectures.

@@ -1,0 +1,56 @@
+Agile and Enterprise Architecture are Not Mutually Exclusive
+There is widespread acceptance that software development using Agile methods works well. However, there are still areas of software development organizations that view their roles or mandates as incompatible with Agile methods.
+
+This talk addresses the legitimate role of an Enterprise Architect and provides concrete recommendations on how Architects can work with Agiledevelopment teams to accomplish their objectives. Topics will include concerns about data architecture, addressing the “ilities”, and why evolutionary architecture works.
+
+
+
+
+
+
+
+
+
+
+
+
+Evolutionary Architecture and Micro-Services - A Match Enabled by Continuous Delivery
+While micro-services are all the rage, they need to be approached with caution. Using the techniques of evolutionary architecture, coupled with continuous delivery, allows for the micro-services architecture and its companion data architecture to evolve.
+
+This talk explores the relationship between these three concepts, focusing on how they all support each other in the creation of complex systems.
+
+
+
+
+
+
+
+
+
+
+Principles of Evolutionary Architecture
+With business models and business needs changing so rapidly, an adaptable architecture is critical to allow systems to cope with change. Historically, adaptability has been sought through anticipating the places where a system must be adaptable and through various architectural approaches. However, recent experiences have shown these approaches to be inadequate, at least as currently practiced.
+
+This talk presents some principles of evolutionary architecture that allow systems to respond to change without needing to predict the future. We then describe three approaches that realize these principles and discuss how these approaches support adaptability of systems in an evolutionary way.
+
+
+
+
+
+
+
+The software development ecosystem is constantly changing, providing a constant stream of new tools, frameworks, techniques, and paradigms. Over the past few years, incremental developments in core engineering practices for software development have created the foundations for rethinking how architecture changes over time, along with ways to protect important architectural characteristics as it evolves.
+
+'Building Evolutionary Architectures' is a practical guide that ties those parts together with a new way to think about architecture and time.
+
+Join Neal Ford and Rebecca Parsons for a reception with drinks and bites starting at 5:30pm — with their talk kicking off at 6:00pm — as they give an overview of these concepts, and talk about co-authoring the newest edition on this topic for O'Reilly's library of essential reads on software.
+
+
+
+
+
+
+
+
+
+

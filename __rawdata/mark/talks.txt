@@ -1,0 +1,178 @@
+Architecture: The Hard Parts
+Mon 9:00 AM
+Architects often look harried and worried because they have no clean, easy decisions: everything is a terrible tradeoff. Architecture has lots of difficult problems, which this workshop highlights by investigating what makes architecture so hard. In this hand-on platform-agnostic architecture workshop we go beyond the fundamentals of software architecture and focus on the really hard problems. We'll focus on areas surrounding modularity verses granularity, the challenges of event-driven architectures (including difficult error handing issues), why reuse doesn't work anymore, how to do tradeoff analysis, and how to decouple services to achieve proper granularity. Architecture is full of hard parts; by tracing the common reasons and applying lessons more universally, we can make it softer.
+
+This is a workshop taught by both Neal Ford and Mark Richards. This hands-on workshop will be divided into three main parts:
+
+Breaking things apart (modularity and building blocks)
+Putting them back together (alternatives and tradeoffs)
+With simple parts (preferred solutions)
+
+
+
+
+
+
+
+Microservices Migration Patterns
+Tue 8:30 AM
+The path to migrating to Microservices from a monolithic or service-oriented architecture (or even starting a greenfield application) is riddled with challenges, pitfalls, canyons, demons, and even fire-breathing dragons. I like to call it “The Kings Road”. In this session I will show the migration patterns that allow you to easily fly over this challenging road and ease the pain associated with moving to microservices. I will also show you some automation tools you can use to help analyze your applications to determine how challenging this road will be.
+
+Agenda
+
+Identifying logical components
+Flattening and refactoring components
+Determining and managing component dependencies
+Creating logical domains
+Separating the user interface
+Moving to macro services
+Splitting apart the user interface
+Moving to microservices
+Tooling and automation
+
+
+
+
+
+
+
+
+Microservices and Distributed Data
+Tue 10:30 AM
+Jorge Santayana is famous for saying “Those who cannot remember the past are condemned to repeat it”. When SOA (Service-Oriented Architecture) was all the craze, everyone got all excited about services, but forgot about the data. This ended in disaster. History repeats itself, and here we are with Microservices, where everyone is all excited about services, but once again, forgets all about the data. In this session I will discuss some of the challenges associated with breaking apart monolithic databases, and then show the techniques for effectively creating data domains and how to split apart a database. I consider the data part of Microservices the hardest aspect of this architecture style. In the end, it's all about the data.
+
+Agenda
+
+Data distribution challenges and considerations
+Creating data domains
+Data and service granularity
+Handling common data tables
+Managing distributed transactions
+
+
+
+
+
+
+
+
+Microservices Caching Strategies
+Tue 1:30 PM
+Haven you ever wondered how to share data between microservices? Have you ever wondered how to share a single database schema between hundreds (or even thousands) of microservices (cloud or on-prem)? Have you ever wondered how to version relational database changes when sharing data in a microservices environment? If any of these questions intrigue you, then you should come to this session. In this session I will describe and demonstrate various caching strategies and patterns that you can use in Microservices to significantly increase performance, manage common data in a highly distributed architecture, and even manage data synchronization from cloud-based microservices. I'll describe the differences between a distributed and replicated cache, Using live coding and demos using Hazelcast and Apache Ignite, I'll demonstrate how to share data and also how to do space-based microservices, leveraging caching to its fullest extent.
+
+Agenda:
+
+Caching Topologies
+Sharing Data Between Microservices
+Space-Based Microservices and Caching
+Calculating Data Collisions
+
+
+
+
+
+
+
+
+
+The Rise and Fall of Microservices
+Tue 3:15 PM
+In 250BC Rome began its expansion into Carthage, and later into the divided kingdoms of Alexander, starting the rise of a great empire until its decline starting around 350AD. Much can be learned from the rise and fall of the Roman Empire as it relates to a similar rise and fall: Microservices. Wait. Did I say “fall of microservices”? Over the past 5+ years Microservices has been on the forefront of most books, articles, and company initiatives. While some companies been experiencing success with microservices, most companies have been experiencing pain, cost overruns, and failed initiatives trying to design and implement this incredibly complex architecture style. In this session I discuss and demonstrate why microservices is so vitally important to businesses, and also why companies are starting to question whether microservices is the right solution. Sir Issac Newton once quoted “What goes up must come down”; Blood, Sweat & Tears sang about this in their hit “Spinning Wheel”. Microservices is no exception. Come to this provocative session to learn about the real challenges and issues associated with microservices, how we might be able to overcome some of the technical (and business) challenges, and whether microservices is really the answer to our problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 Essential Architecture Practices
+Tue 5:00 PM
+Software architecture is hard. It is full of tradeoff analysis, decision making, technical expertise, and leadership, making it more of an art than a science. The common answer to any architecture-related question is “it depends”. To that end, I firmly believe there are no “best practices” in software architecture because every situation is different, which is why I titled this talk “Essential Practices”: those practices companies and architects are using to achieve success in architecture. In this session I explore in detail the top 6 essential software architectural practices (both technical architecture and process-related practices) that will make you an effective and successful software architect.
+
+This session is broken up into 2 parts: those essential architecture practices that relate to the technical aspects of an architecture (hard skills), and those that relate to the process-related aspects of software architecture (soft skills). Both parts are needed to make architecture a success.
+
+
+
+
+
+
+
+
+
+
+
+
+The Art of Problem Solving
+Tue 8:30 PM
+As Tech Leaders, we are presented with problems and work to find a way to solve them, usually through technology. In my opinion this is what makes this industry so much fun. Let's face it - we all love challenges. Sometimes, however, the problems we have to solve are hard - really hard. So how do you go about solving really hard problems? That's what this session is about - Heuristics, the art of problem solving. In this session you will learn how to approach problems and also learn techniques for solving them effectively. So put on your thinking cap and get ready to solve some easy, fun, and hard problems.
+
+Agenda:
+
+the checklist
+visual representations
+you know what happens when you assume…
+you gotta start somewhere
+the world is flat
+hey! keep it clean!
+perception can be reality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Choosing the Right Architecture Style
+Wed 9:00 AM
+Whether starting a new greenfield application or analyzing the vitality of an existing application, one of the decisions an architect must make is which architecture style to use (or to refactor to). Microservices? Service-Based? Microkernel? Pipeline? Layered? Space-Based? Event-Driven? SOA?. Having the right architecture style in place is essential to the success of any application, big or small. Come to this fast-paced session to learn how to analyze your requirements and domain to make the right choice about which architecture style is right for your situation.
+
+Agenda
+
+Architecture Style Classification
+Common Architecture Styles
+Domain to Architecture Isomorphism
+Case Studies: Selecting an Architecture Style
+
+
+
+
+
+
+
+
+
+
+
+
+
+Applying Reactive Architecture Patterns
+Wed 11:00 AM
+Reactive architecture patterns allow you to build self-monitoring, self-scaling, self-growing, and self-healing systems that can react to both internal and external conditions without human intervention. These kind of systems are known as autonomic systems (our human body is one example). In this session I will show you some of the most common and most powerful reactive patterns you can use to automatically scale systems, grow systems, and self-repair systems, all using the basic language API and simple messaging. Through code samples in Java and actual run-time demonstrations, I'll show you how the patterns work and also show you sample implementations. Get ready for the future of software architecture - that you can start implementing on Monday.
+
+Agenda
+
+introduction to reactive architecture
+supervisor consumer pattern (automated microservices scalability)
+workflow event pattern (automated asynchronous error handling)
+producer control flow pattern (automated repairing of downstream systems)
+
+
+
+
+
+
+
+

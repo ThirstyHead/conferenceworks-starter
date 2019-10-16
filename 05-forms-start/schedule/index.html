@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Schedule | ConferenceWorks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Scott Davis <scott@thirstyhead.com>">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link href="/css/index.css" rel="stylesheet">  
+
+    <script src="/components/cw-header/index.js"></script>
+    <script src="/components/cw-footer/index.js"></script>
+    <script>
+      window.addEventListener('load', init);
+
+      async function init(){
+        await fetchSchedule();
+        await loadSchedule();
+      }
+
+      async function fetchSchedule(){
+        console.log("Fetching schedule");
+        let response = await fetch('/schedule/schedule.json');  
+        let schedule = await response.json();
+        console.dir(schedule);
+        window.localStorage.setItem('schedule', JSON.stringify(schedule));
+      }
+
+      async function loadSchedule(){
+        console.log("Loading schedule");
+        let schedule = JSON.parse(window.localStorage.getItem('schedule'));
+        if(schedule){
+          schedule.sessions.forEach( (session) => {
+            let slot = document.querySelector(`[data-slot='${session.slot}']`);
+            slot.innerHTML = `<b>${session.talk}</b><br>${session.speaker}`;
+          });
+        }
+      }
+
+    </script>
+
+
+
+
+  </head>
+
+  <body>
+    <cw-header></cw-header>
+
+    <nav class="breadcrumbs-nav" aria-labelledby="breadcrumbs">
+      <h2 id="breadcrumbs" hidden aria-hidden="false">Breadcrumbs</h2>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li>Schedule</li>
+      </ol>
+    </nav>
+
+
+    <main>
+      <h1>Schedule</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>Grace Hopper Ballroom</th>
+            <th>Margaret Hamilton Ballroom</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="timeslot">7:00am - 8:00am</td>
+            <td colspan="2">Conference Check-in and Registration</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">8:00am - 8:45am</td>
+            <td colspan="2" data-slot="gh-1">Opening Keynote</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">8:45am - 9:00am</td>
+            <td colspan="2" class="transition">[Transition]</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">9:00am - 10:30am</td>
+            <td data-slot="gh-2">&nbsp;</td>
+            <td data-slot="mh-2">&nbsp;</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">10:30am - 10:45am</td>
+            <td colspan="2" class="transition">[Transition]</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">10:45am - 12:15pm</td>
+            <td data-slot="gh-3">&nbsp;</td>
+            <td data-slot="mh-3">&nbsp;</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">12:15pm - 1:30pm</td>
+            <td colspan="2">Lunch</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">1:30pm - 3:00pm</td>
+            <td data-slot="gh-4">&nbsp;</td>
+            <td data-slot="mh-4">&nbsp;</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">3:00pm - 3:15pm</td>
+            <td colspan="2" class="transition">[Transition]</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">3:15pm - 4:45pm</td>
+            <td data-slot="gh-5">&nbsp;</td>
+            <td data-slot="mh-5">&nbsp;</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">4:45pm - 5:00pm</td>
+            <td colspan="2" class="transition">[Transition]</td>
+          </tr>
+
+          <tr>
+            <td class="timeslot">5:00pm - 6:00pm</td>
+            <td colspan="2" data-slot="gh-6">Closing Keynote</td>
+          </tr>
+
+        </tbody>
+     </table>
+
+    </main>
+
+    <cw-footer></cw-footer>
+  </body>
+</html>

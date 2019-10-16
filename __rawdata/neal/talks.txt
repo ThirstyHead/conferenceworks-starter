@@ -1,0 +1,130 @@
+Architecture: The Hard Parts
+Mon 9:00 AM
+Architects often look harried and worried because they have no clean, easy decisions: everything is a terrible tradeoff. Architecture has lots of difficult problems, which this workshop highlights by investigating what makes architecture so hard. In this hand-on platform-agnostic architecture workshop we go beyond the fundamentals of software architecture and focus on the really hard problems. We'll focus on areas surrounding modularity verses granularity, the challenges of event-driven architectures (including difficult error handing issues), why reuse doesn't work anymore, how to do tradeoff analysis, and how to decouple services to achieve proper granularity. Architecture is full of hard parts; by tracing the common reasons and applying lessons more universally, we can make it softer.
+
+This is a workshop taught by both Neal Ford and Mark Richards. This hands-on workshop will be divided into three main parts:
+
+Breaking things apart (modularity and building blocks)
+Putting them back together (alternatives and tradeoffs)
+With simple parts (preferred solutions)
+
+
+
+
+
+
+
+
+
+
+
+Architecture Foundations: Characteristics & Tradeoffs
+Tue 8:30 AM
+This session describes how architects can identify architectural characteristics from a variety of sources, how to distinguish architectural characteristics from domain requirements, and how to build protection mechanisms around key characteristics. This session also describe a variety of tradeoff analysis techniques for architects, to try to best balance all the competing concerns on software projects.
+
+Architects must translate domain requirements, external constraints, speculative popularity, and a host of other factors to determine the key characteristics of a software system: performance, scale, elasticity, and so on. Yet architects must also analyze the tradeoffs each characteristics entails, arriving at a design that manages to maximize as many beneficial properties as possible. This session describes how architects can identify architectural characteristics from a variety of sources, how to distinguish architectural characteristics from domain requirements, and how to build protection mechanisms around key characteristics. This session also describe a variety of tradeoff analysis techniques for architects, to try to best balance all the competing concerns on software projects.
+
+
+
+
+
+
+
+
+
+
+Architecture Foundations: Styles & Patterns
+Tue 10:30 AM
+This session covers basic application and distributed architectural styles, analyzed along several dimensions (type of partitioning, families of architectural characteristics, and so on).
+
+A key building block for burgeoning software architects is understanding and applying software architecture styles and patterns. This session covers basic application and distributed architectural styles, analyzed along several dimensions (type of partitioning, families of architectural characteristics, and so on). It also provides attendees with understanding and criteria to judge the applicability of a problem domain to an architectural style.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Restructuring & Migrating Architectures
+Tue 1:30 PM
+Patterns/antipatterns, techniques, engineering practices, and other details showing how to restructure existing architectures and migrate from one architecture style to another.
+
+A common challenge facing many architects today involves restructuring their current architecture or migrating from one architectural style to another. For example, many companies start with monolithic applications for simplicity, but find they must migrate it to another architecture to achieve different architectural characteristics. This session shows patterns/antipatterns, techniques, engineering practices, and other details showing how to make major changes to architectures. This session introduces a new measure, the architectural quantum, as a way of measuring and analyzing coupling and portability within architectures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Automating Architecture Governance Using Fitness Functions
+Tue 3:15 PM
+This session describes mechanisms to automate architectural governance at application, integration, and enterprise levels
+
+A nagging problem for architects is the ability to enforce the governance policies they create. Yet, outside of architecture review boards or code reviews, how can architects be sure that developers utilize their rules? This session describes mechanisms to automate architectural governance at application, integration, and enterprise levels. By focusing on fitness functions, architects define objective tests, metrics, and other criteria to ensure governance polices stick.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Building Evolutionary Architectures Workshop
+Wed 9:00 AM
+This workshop highlights the ideas from the forthcoming Building Evolutionary Architectures, showing how to build architectures that evolve gracefully over time.
+
+An evolutionary architecture supports incremental, guided change across multiple dimensions.
+
+For many years, software architecture was described as the “parts that are hard to change later”. But then microservices showed that if architects build evolvability into the architecture, change becomes easier. This workshop, based on my upcoming book, investigates the family of software architectures that support evolutionary change, along with how to build evolvable systems. Understanding how to evolve architecture requires understanding how different parts of architecture interact; I describe how to achieve appropriate coupling between components and services. Incremental change is critical for the mechanics of evolution; I cover how to build engineering and DevOps practices to support continuous change. Uncontrolled evolution leads to undesirable side effects; I cover how fitness functions build protective, testable scaffolding around critical parts to guide the architecture as it evolves.
+
+The software development ecosystem exists in a state of dynamic equilibrium, where any new tool, framework, or technique leads to disruption and the establishment of a new equilibrium. Predictability is impossible when the foundation architects plan against changes constantly in unexpected ways. Instead, prefer evolvability over predictability. This hands-on workshop provides a high-level overview of a different way to think about software architecture.
+
+Outline:
+
+Architecture Dimensions
+Engineering Incremental change
+Architectural Characteristics
+Exercise: determine appropriate characteristics
+Identifying Architectural Patterns
+Exercise: components and patterns
+Identifying Fitness Functions
+Exercise: determining fitness functions
+Retrofitting Existing Architectures
+Building Evolvable Architectures
+
+
+
+
+
+
+

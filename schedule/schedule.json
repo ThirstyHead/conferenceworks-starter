@@ -1,0 +1,66 @@
+{
+  "sessions": [
+    {
+      "slot": "gh-1",
+      "talk": "Agile and Enterprise Architecture are Not Mutually Exclusive",
+      "speaker": "Dr. Rebecca Parsons"
+    },
+
+    {
+      "slot": "gh-2",
+      "talk": "The Decentralized Web",
+      "speaker": "Brian Sletten"
+    },
+
+    {
+      "slot": "mh-2",
+      "talk": "Microservices Caching Strategies",
+      "speaker": "Mark Richards"
+    },
+  
+    {
+      "slot": "gh-3",
+      "talk": "Deconstructing the Modern Web Browser",
+      "speaker": "Scott Davis"
+    },
+
+    {
+      "slot": "mh-3",
+      "talk": "Architecture: The Hard Parts",
+      "speaker": "Neal Ford"
+    },
+
+    {
+      "slot": "gh-4",
+      "talk": "Evolutionary Architecture and Microservices",
+      "speaker": "Dr. Rebecca Parsons"
+    },
+
+    {
+      "slot": "mh-4",
+      "talk": "Exploring Modern JavaScript",
+      "speaker": "Dr. Venkat Subramaniam"
+    },
+
+    {
+      "slot": "gh-5",
+      "talk": "Microservices Migration Patterns",
+      "speaker": "Mark Richards"
+    },
+
+    {
+      "slot": "mh-5",
+      "talk": "Improving Quality of JavaScript Code",
+      "speaker": "Dr. Venkat Subramaniam"
+    },
+
+    {
+      "slot": "gh-6",
+      "talk": "It's Spelled 'Accessibility', not 'Disability'",
+      "speaker": "Scott Davis"
+    }
+  
+  ]
+}
+
+

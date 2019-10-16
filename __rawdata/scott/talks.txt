@@ -1,0 +1,56 @@
+It's Spelled 'Accessibility', not 'Disability'
+
+If your mobile phone is in silent/vibrate mode right now, would you say that you're using an accessibility feature, or just a feature of your phone? If you've ever adjusted the size of onscreen content by pinching or stretching, do you feel like you have a disability, or are you simply using your phone as it was meant to be used?
+
+In this keynote, Scott Davis (Principal Engineer and Web Architect, ThoughtWorks) discusses Universal Design, in which we design features for everyone to use, not just an arbitrary subset of our users.
+
+Granted, over 1 billion people across the world have some form of disability -- that's between 15% and 20% of the planet. And the top 1 million websites average over 60 accessibility errors per page -- that's one error for every 13 elements on the page. So yes, we as an industry have quite a bit of work to do to support the 20% of our users that need our accessibility efforts the most. But if you have plans to add a Conversational UI (like Siri, Alexa, or Cortana) to your product, is your plan to limit that interface to only your blind and low-vision users, or is it something that you hope all of your users will enjoy?
+
+
+
+
+
+
+
+The Wrong Kind of Fast: Embracing Evidence-Based Architecture
+
+"Move fast and break things" was Facebook's motto for years, valuing time-to-market over stability. "React is faster than the DOM" is one of the commonly repeated features of the framework, although this is demonstrably untrue and disavowed by Dan Abramov, top React committer and creator of Redux.
+
+Of course we want software to be fast, but we should want it to be the right kind of fast. In this keynote, Scott Davis (Principal Engineer, ThoughtWorks) debunks common software tropes with empirical, quantifiable, measurable facts -- what he calls "Evidence-Based Architecture". We'll look at making your web app fast by creating measurable performance budgets. We'll explore your development process through the prism of the book "Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations". And we'll create "objective integrity assessments" through measurable Fitness Functions, as discussed in the book "Building Evolutionary Architectures: Support Constant Change".
+
+
+
+
+
+Browser-Native Web Development
+
+
+Netflix saw a 50% performance improvement when they removed React from their landing page. Moving to Google's Accelerated Mobile Pages (AMP) project lead publishers like Gizmodo and the Times of India to see 300% performance improvements. Their secret? Removing client-side JavaScript.
+
+In this keynote, Scott Davis (Principal Engineer, ThoughtWorks) demonstrates what framework-free web development looks like by taking you on a guided tour of practical, commonsense examples. Note that this doesn't mean JavaScript-free development; rather, it means a balanced approach that combines HTML, CSS, and JavaScript in a holistic way that leverages the strengths of each. The end result is a solution that is measured in single digit kilobytes, often less than a hundred or two lines of code. Along the way, you'll also learn how to create a measurable web performance budget based on real-world empirical thresholds.
+
+
+
+
+
+
+Deconstructing the Modern Web Browser
+
+The ability to "View / Source" -- showing the HTML, CSS, and JavaScript used to implement the current web page -- has been a stalwart feature of every browser since the very beginning. Until recently, viewing the internal workings of the web browser has been more of a closed door.
+
+In this talk, Scott Davis (Principal Engineer, ThoughtWorks) will take you on a guided tour of the inner mechanisms of a web browser. You'll learn about the HTML Rendering Engine (like Blink, Gecko, and WebKit). You'll learn about the Scripting Engine (like V8, SpiderMonkey, and Nitro). With those two pieces of knowledge in hand, we'll discuss running headless browsers (for testing in your CI/CD pipeline) and headless JavaScript engines (perhaps you've heard of NodeJS?). And then the fun really begins, digging into developer consoles, Lighthouse audits for a11y and performance, and automated ways to drive the browser remotely using the Chrome DevTools Protocol, Puppeteer, ThoughtWorks' Gauge and Taiko, and more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

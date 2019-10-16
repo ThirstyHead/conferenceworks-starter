@@ -1,0 +1,6 @@
+Scott Davis
+Web Architect, ThoughtWorks
+
+
+Scott Davis is a Web Architect and Principal Engineer with ThoughtWorks, where he focuses on leading-edge / innovative / emerging / non-traditional aspects of web development. This includes serverless web apps, mobile web apps (Responsive PWAs), HTML5-based SmartTV apps, Conversational UIs (like Siri and Alexa), and using web technologies to build IoT solutions.
+
