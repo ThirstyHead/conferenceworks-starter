@@ -1,6 +1,6 @@
 {
   "name": "conferenceworks-starter",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A starter project for ConferenceWorks. See https://thethousandyearweb.com/examples/conferenceworks for details.",
   "main": "index.html",
   "scripts": {
