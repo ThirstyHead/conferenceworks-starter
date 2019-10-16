@@ -45,6 +45,11 @@ echo $'\nCopying:'
 echo '---------'
 cp -rv $1/schedule .
 
-
-
+# register
+echo $'\nDeleting:'
+echo '---------'
+rm -rfv register
+echo $'\nCopying:'
+echo '---------'
+cp -rv $1/register .
 
