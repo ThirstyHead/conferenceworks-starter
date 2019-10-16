@@ -34,3 +34,32 @@ main{
 }
 
 
+
+
+
+@media screen and (orientation: landscape){
+  label{
+    display: inline-block;
+    width: 10em;
+    text-align: right;
+  }
+}
+
+
+@media screen and (orientation: portrait){
+  label{
+    display: block;
+  }
+
+  label::after{
+    content: ":";
+  }
+
+  input{
+    display: block;
+  }
+}
+
+
+
+
